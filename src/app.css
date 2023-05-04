@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  #root {
+    margin: 0 auto;
+    width: 480px;
+  }
+}
+@media (min-width: 1200px) {
+  #root {
+    margin: 0 auto;
+    width: 1200px;  
+  }
+}
